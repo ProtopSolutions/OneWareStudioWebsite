@@ -22,7 +22,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: website-build
-          path: out
+          path: build
 
   deploy:
     permissions:
