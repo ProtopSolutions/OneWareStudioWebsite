@@ -1,0 +1,230 @@
+.heroBackground{
+  background: linear-gradient(to right, #11998e, #0d6e66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: rgb(0 0 0 / 50%) 0px -10px 13px -7px inset; 
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: calc(var(--ifm-navbar-height)*-1);
+  padding-top: var(--ifm-navbar-height);
+}
+
+[data-theme="dark"] .heroBackground {
+  background-image: linear-gradient(to right, #094d48, #073a35);
+  box-shadow: rgb(0 0 0 / 80%) 0px -10px 13px -7px inset; 
+}
+
+.particles{
+  position: absolute;
+  height: calc(100% - var(--ifm-navbar-height));
+  width: 100%; 
+}
+
+.heroBanner {
+  padding: 7.5rem 2rem 10rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  pointer-events: none;
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.heroTitle{
+  font-size: 3rem;
+  text-align: left;
+}
+
+.heroSubtitle{
+  font-size: 2rem;
+  text-align: left;
+}
+
+.heroButton{
+  font-size: 1rem;
+  margin: 5px;
+  border-color: rgb(255, 255, 255);
+  color: white !important;
+  pointer-events: all;
+  float: left;
+}
+
+.heroButtonTwo{
+  color: white !important;
+}
+
+[data-theme="dark"] .heroButton{
+  border-color: white;
+}
+
+[data-theme="dark"] .heroButtonTwo{
+  background: transparent;
+  color: white !important;
+}
+
+.heroButtonTwo:hover{
+  background-color: rgb(48, 48, 48);
+}
+
+.slidecaption {
+  padding: 1em 0 0 0;
+}
+
+[data-theme="dark"] .shadow, [data-theme="dark"] .slick-slider {
+  box-shadow: none;
+}
+
+.slick-slider {
+  max-width: 130vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+}
+
+.slick-slide, .slick-slide * {
+  outline: none !important;
+}
+
+.slidebutton {
+  cursor: pointer;
+}
+
+.activeslide {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.altcolor {
+  background-color: var(--ifm-color-emphasis-100);
+  clip-path: polygon(0 0, 100% 2vw, 100% calc(100% - 2vw), 0 100%);
+  padding: 50px 0;
+}
+
+.altcolorend {
+  clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0 100%);
+}
+
+nav {
+  transition: 0.8s;
+}
+
+.card{
+  border-radius: 7px;
+  margin: 7.5px 15px;
+  text-align: left;
+  padding: 0px !important;
+}
+
+.cardTitle{
+  padding: 0px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.cardSubTitle{
+  padding: 0px;
+}
+
+
+@media screen and (max-width: 980px) {
+  .heroBanner {
+    padding: 1rem 0 3rem 0;
+  }
+  .heroLogoImage {
+    display: none;
+  }
+  .activeslide {
+    background-color: var(--ifm-background-color);
+  }
+  .slick-slider {
+    box-shadow: none !important;
+    margin-bottom: 50px;
+  }
+  .slidebutton {
+    padding: 2em !important;
+  }
+  .slick-slider {
+    line-height: 0;
+  }
+  .roundcorner {
+    border-radius: 3px;
+  }
+  .activeslide {
+    background-color: var(--ifm-background-color);
+  }
+  .slick-slider {
+    box-shadow: none !important;
+    margin-bottom: 50px;
+  }
+}
+
+.PromoSection {
+  position: relative;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureImage {
+  height: 100px;
+  width: 100px;
+}
+
+[data-theme="dark"] .featureImage{
+  filter: invert(0.8);
+}
+
+.heroLogo {
+  -webkit-box-align: center;
+  align-items: center;
+  bottom: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  left: 0;
+  position: relative;
+  height: 0;
+  right: 0;
+  top: 100px;
+  z-index: 0;
+}
+
+.heroLogoImage {
+  animation-name: logoAnimation;
+  animation-duration: 2.5s;
+  z-index: 10;
+  pointer-events: all;
+  transition: 1s;
+  width: 200px;
+}
+
+.heroLogoImage:hover {
+  transform: scale(1.1) rotate(1deg);
+}
+
+/*Animations*/
+
+@keyframes logoAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(.1) rotate(30deg);
+    transform-origin: center bottom
+  }
+  50% {
+    transform: rotate(-10deg)
+  }
+  70% {
+    transform: rotate(3deg)
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    transform: rotate(0deg)
+  }
+}

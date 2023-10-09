@@ -1,0 +1,22 @@
+{
+    "name": "OneWare Docs",
+    "short_name": "OneWare Docs",
+    "theme_color": "#00aaff",
+    "background_color": "#424242",
+    "display": "standalone",
+    "scope": "./",
+    "start_url": "./index.html",
+    "related_applications": [
+      {
+        "platform": "webapp",
+        "url": "https://OneWare.Studio/manifest.json"
+      }
+    ],
+    "icons": [
+      {
+        "src": "img/favicon.ico",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }

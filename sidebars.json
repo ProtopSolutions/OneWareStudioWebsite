@@ -1,0 +1,11 @@
+{
+  "docs": {
+    "Get started": [
+      "getstarted"
+    ]
+  },
+  "about": {
+    "About": ["contact"],
+    "Privacy Policy": ["privacy", "privacy_de"]
+  }
+}
