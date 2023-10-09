@@ -1,6 +1,6 @@
 const siteConfig = {
-  title: "The FPGA Programming Revolution",
-  tagline: "Software and Hardware that makes FPGA Programming easy",
+  title: "One IDE for Hardware and Software Development",
+  tagline: "Software and Hardware that makes Hardware Programming easy",
   url: "https://oneware.studio",
   baseUrl: "/",
   favicon: "img/favicon.ico",
