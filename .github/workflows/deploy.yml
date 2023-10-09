@@ -1,4 +1,4 @@
-name: Deploy OneWare Web Studio
+name: Deploy
 
 on:
   # Allows you to run this workflow manually from the Actions tab
@@ -41,5 +41,5 @@ jobs:
           server: w01e537f.kasserver.com
           username: w01e537f
           password: ${{ secrets.ONEWARE_STUDIO_FTP }}
-          local-dir: website
+          local-dir: website/
           server-dir: oneware.studio/
