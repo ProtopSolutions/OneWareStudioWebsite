@@ -140,15 +140,13 @@ const siteConfig = {
     },
     // Equivalent to `docsSideNavCollapsible`
     // ...
-    /*
     algolia: {
-      appId: '',
-      apiKey: '',
+      appId: 'HQZ79VR7H1',
+      apiKey: '4f65a75f2f664206cc817eda7bb6d3d4',
       indexName: 'oneware',
       contextualSearch: false,
-    }*/
+    }
   },
-  
   plugins: [
     [
       '@docusaurus/plugin-pwa',
