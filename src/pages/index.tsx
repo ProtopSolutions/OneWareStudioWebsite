@@ -38,11 +38,11 @@ const sliders = [
     )
   },
   {
-    title: "Extensible",
+    title: "Extensibility",
     imageSrc: <img alt="Extensible" src="/img/slides/extensions.png" />,
     description: (
       <>
-        OneWare Studio is fully extensible, allowing it to install custom languages, Hardware Support, new Toolchains or Simulators with one click.
+        OneWare Studio is fully extensible, allowing to install custom languages, Hardware Support, new Toolchains or Simulators with one click.
         This makes our tool a very lightweight software that can be easily customized for your needs.
       </>
     )
@@ -121,7 +121,7 @@ const App = () => {
               },
               line_linked: {
                 enable: true,
-                opacity: 0.08
+                opacity: 0.1
               },
               move: {
                 direction: "bottom",
@@ -131,8 +131,8 @@ const App = () => {
                 },
                 size: true,
                 speed: {
-                  min: 0.1,
-                  max: 0.3
+                  min: 0.2,
+                  max: 0.4
                 }
               },
               size: {
@@ -142,7 +142,7 @@ const App = () => {
                 anim: {
                   enable: true,
                   speed: 1,
-                  opacity_min: 0.1
+                  opacity_min: 0.2
                 }
               }
             },
@@ -163,7 +163,7 @@ const App = () => {
                 },
                 bubble: {
                   size: 6,
-                  distance: 40
+                  distance: 44
                 }
               }
             },
@@ -272,7 +272,7 @@ const App = () => {
                 <img alt="About OneWare" className="margin-auto" src="/img/About_OneWare.png" />
               </Col>
               <Col className="padding-vert--md" data-aos="fade-left">
-                <h1>What is OneWare Studio?</h1>
+                <h1>What is OneWare?</h1>
                 <p>
                   OneWare is the name of our powerful Solution that combines both FPGA and Microcontroller development into one powerful platform. 
 
