@@ -104,7 +104,7 @@ const siteConfig = {
       ],
       logo: {
         alt: "OneWare Logo",
-        src: "img/OneWare.jpeg",
+        src: "img/OneWare.png",
         href: "https://oneware.studio"
       },
       copyright: `Copyright © ${new Date().getFullYear()} OneWare Studio`
