@@ -6,7 +6,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import AOS from "aos";
 import styles from "../css/index.module.css";
 import "aos/dist/aos.css";
-import FPGA from '../components/FPGA';
 import CustomCodeBlock, { Snippet } from '../components/CustomCodeBlock';
 import classnames from "classnames";
 import Layout from "@theme/Layout";
@@ -183,7 +182,7 @@ const App = () => {
 
             <div className={styles.PromoSection}>
               <h1 className={styles.heroTitle}>OneWare Studio</h1>
-              <p className={styles.heroSubtitle}>One Extensible IDE for Hardware and Software Development</p>
+              <p className={styles.heroSubtitle}>Powering the Future, One Chip at a Time!</p>
               <a target="_blank"
                 className={classnames("button button--primary button--lg hideMobile", styles.heroButton)}
                 href={"https://demo.oneware.studio"}>
@@ -251,30 +250,22 @@ const App = () => {
           <Container>
             <Row className="bottomsplit padding-vert--lg">
               <Col className="padding-vert--md mobileorder-1" data-aos="fade-right">
-                <h1>What is an FPGA?</h1>
-                FPGAs complete operations at astonishing rates. They are not
-                limited by thread count, because you program the hardware.
-                This leads to <strong>incomparable performance</strong>, especially in
-                multi-threaded tasks, such as for robots, AI, audio and video
-                processing or Crypto mining.<br></br>
-                <br></br>
-                This is why FPGAs are already widely used in the professional
-                environment. But due to the high price and difficulty of
-                programming for private users, FPGAs have not yet been
-                established. This is why we started this project.
+                <h1>What is Electrical Engineering?</h1>
+                
+Electrical Engineering is the invisible force that powers our modern world, driving technological innovation and ensuring our daily conveniences. It is the linchpin of power generation and distribution, supporting industries, homes, and infrastructure. Beyond that, it plays a pivotal role in shaping sustainable energy solutions, communication networks, and automation systems. As our society faces complex challenges in healthcare, environmental sustainability, and space exploration, Electrical Engineering continues to be at the forefront, providing the tools and expertise to tackle these pressing issues and pave the way for a brighter future.
               </Col>
               <Col className="padding-vert--md mobileorder-0" data-aos="fade-left">
-                <FPGA />
+                <img alt="About OneWare" className="margin-auto" src="/img/micro.png" />
               </Col>
             </Row>
             <Row className="padding-vert--lg" data-aos="fade-right">
               <Col className="padding-vert--md display-flex">
-                <img alt="About OneWare" className="margin-auto" src="/img/About_OneWare.png" />
+                <img alt="About OneWare" className="margin-auto" src="/img/graph.png" />
               </Col>
               <Col className="padding-vert--md" data-aos="fade-left">
                 <h1>What is OneWare?</h1>
                 <p>
-                  OneWare is the name of our powerful Solution that combines both FPGA and Microcontroller development into one powerful platform. 
+                OneWare represents our innovative solution, merging FPGA and Microcontroller development into a unified platform, offering substantial assistance to electrical engineers
 
                   <Container style={{ overflowY: "hidden" }}>
                     <Row className="margin-top--md">
