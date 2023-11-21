@@ -31,7 +31,7 @@ const sliders = [
     imageSrc: <img alt="Simulation" src="/img/slides/vcd.png" />,
     description: (
       <>
-        For many tasks in hardware development it is very useful to simulate your program. 
+        For many tasks in hardware development it is very useful to simulate your program.
         OneWare Studio offers excellent simulation integration, including a lightning fast, multi-threaded VCD Viewer and the most popular Simulation tools.
       </>
     )
@@ -186,7 +186,7 @@ const App = () => {
               <a target="_blank"
                 className={classnames("button button--primary button--lg hideMobile", styles.heroButton)}
                 href={"https://demo.oneware.studio"}>
-                WEB DEMO
+                WEB PREVIEW
               </a>
               <Link
                 className={classnames("button button--secondary button--outline button--lg", styles.heroButtonTwo, styles.heroButton)}
@@ -251,8 +251,7 @@ const App = () => {
             <Row className="bottomsplit padding-vert--lg">
               <Col className="padding-vert--md mobileorder-1" data-aos="fade-right">
                 <h1>What is Electrical Engineering?</h1>
-                
-Electrical Engineering is the invisible force that powers our modern world, driving technological innovation and ensuring our daily conveniences. It is the linchpin of power generation and distribution, supporting industries, homes, and infrastructure. Beyond that, it plays a pivotal role in shaping sustainable energy solutions, communication networks, and automation systems. As our society faces complex challenges in healthcare, environmental sustainability, and space exploration, Electrical Engineering continues to be at the forefront, providing the tools and expertise to tackle these pressing issues and pave the way for a brighter future.
+                Electrical Engineering is the invisible force that powers our modern world, driving technological innovation and ensuring our daily conveniences. It is the linchpin of power generation and distribution, supporting industries, homes, and infrastructure. Beyond that, it plays a pivotal role in shaping sustainable energy solutions, communication networks, and automation systems. As our society faces complex challenges in healthcare, environmental sustainability, and space exploration, Electrical Engineering continues to be at the forefront, providing the tools and expertise to tackle these pressing issues and pave the way for a brighter future.
               </Col>
               <Col className="padding-vert--md mobileorder-0" data-aos="fade-left">
                 <img alt="About OneWare" className="margin-auto" src="/img/micro.png" />
@@ -265,7 +264,7 @@ Electrical Engineering is the invisible force that powers our modern world, driv
               <Col className="padding-vert--md" data-aos="fade-left">
                 <h1>What is OneWare?</h1>
                 <p>
-                OneWare represents our innovative solution, merging FPGA and Microcontroller development into a unified platform, offering substantial assistance to electrical engineers
+                  OneWare represents our innovative solution, merging FPGA and Microcontroller development into a unified platform, offering substantial assistance to electrical engineers
 
                   <Container style={{ overflowY: "hidden" }}>
                     <Row className="margin-top--md">
@@ -284,8 +283,8 @@ Electrical Engineering is the invisible force that powers our modern world, driv
                     <Row className="margin-bottom--md">
                       <Col className={styles.card} data-aos="fade-up" data-aos-delay="100">
                         <div className={styles.cardTitle}>Plug&Play Hardware ⚡</div>
-                        <div className={styles.cardSubTitle}>OneWare Studio supports the open CRUVI Standard. 
-                        Modular CRUVI hardware and the visual integration in the IDE create a true Plug&Play experiance.
+                        <div className={styles.cardSubTitle}>OneWare Studio supports the open CRUVI Standard.
+                          Modular CRUVI hardware and the visual integration in the IDE create a true Plug&Play experiance.
                         </div>
                       </Col>
                       <Col className={styles.card} data-aos="fade-up" data-aos-delay="100">

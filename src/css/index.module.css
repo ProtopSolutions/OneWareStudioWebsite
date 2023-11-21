@@ -1,5 +1,5 @@
 .heroBackground{
-  background: linear-gradient(to right, #11998e, #0d6e66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #1a4343, #153f3b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: rgb(0 0 0 / 50%) 0px -10px 13px -7px inset; 
   position: relative;
   top: 0;
@@ -10,7 +10,7 @@
 }
 
 [data-theme="dark"] .heroBackground {
-  background-image: linear-gradient(to right, #094d48, #073a35);
+  background: linear-gradient(to right, #133030, #0f2c29);
   box-shadow: rgb(0 0 0 / 80%) 0px -10px 13px -7px inset; 
 }
 
